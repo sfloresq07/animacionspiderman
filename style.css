@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+width: 90%;
+height: 600px;
+margin: 80px auto;
+/* background-color: tomato; */
+background-image: url(./fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+overflow: hidden;
+display: flex;
+    justify-content: center;
+
+}
+
+
+.spidy{
+height: 550px;
+transform: translateY(-120px);
+transition: transform 1s ease-in-out;
+}
+
+.container:hover .spidy{
+transform: translateY(0);
+}
